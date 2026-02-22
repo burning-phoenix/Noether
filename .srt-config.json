@@ -1,0 +1,33 @@
+{
+  "network": {
+    "allowedDomains": [
+      "pypi.org",
+      "*.pypi.org",
+      "files.pythonhosted.org",
+      "github.com",
+      "*.github.com"
+    ],
+    "deniedDomains": [],
+    "allowLocalBinding": false
+  },
+  "filesystem": {
+    "denyRead": [
+      "~/.ssh",
+      "~/.aws",
+      "~/.config",
+      "~/.bash_history",
+      "~/.zshrc",
+      ".env"
+    ],
+    "allowWrite": [
+      ".",
+      "/tmp"
+    ],
+    "denyWrite": [
+      ".env",
+      "*.key",
+      "secrets/",
+      ".git/"
+    ]
+  }
+}

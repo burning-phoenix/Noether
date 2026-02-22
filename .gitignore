@@ -1,0 +1,73 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Models (18GB+ GGUF files)
+models/
+*.gguf
+
+# IDE and OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Personal development files
+personal-dev/
+
+# Project sandbox (user-generated)
+project-sandbox/
+
+# Testing and caching
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Noether runtime data
+.noether/
+
+# Legacy runtime data (pre-rename)
+.chorus/
+
+# Aider
+.aider*
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Build artifacts
+noether.egg-info/
+
+# Internal docs archive
+docs/archive/
+
+# Dev scratch files
+refactor_callbacks.py
+refactor_explore.py
+
+# Root-level test files (proper tests are in tests/)
+test_fw.py
+test_fw_loop.py
+test_fw_schemas.py
+test_fw_stream.py
+test_fw_tools.py
+test_e2e_book_library.py
+test_pipeline.py
+test_write.txt
+
+# Trailer video (uploaded as GitHub Release asset)
+noether-trailer.mp4
