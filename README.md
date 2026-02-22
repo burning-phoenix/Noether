@@ -4,7 +4,7 @@
 
 A terminal-based code editor that orchestrates multiple AI agents for intelligent code generation, planning, and execution.
 
-<video src="https://github.com/burning-phoenix/Noether/releases/download/v0.1.0/noether-trailer.mp4" controls width="100%"></video>
+https://github.com/burning-phoenix/Noether/releases/download/v0.1.0/noether-trailer.mp4
 
 ```bash
 noether --fast
