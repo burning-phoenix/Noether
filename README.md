@@ -7,7 +7,7 @@ A terminal-based code editor that orchestrates multiple AI agents for intelligen
 https://github.com/user-attachments/assets/fa92eeb5-53e6-4172-8c1c-1ee0c679460f
 
 ```bash
-noether --fast
+noether
 ```
 
 ## The Idea
@@ -44,11 +44,17 @@ cd noether
 pip install -e .
 ```
 
+### One-time Sandbox setup (required to run any bash commands)
+
+```bash
+noether setup-sandbox
+```
+
 ### Run
 
 ```bash
-cd ~/your-project
-noether --fast
+cd ~/your-project-dir
+noether
 ```
 
 You'll be prompted for your [Fireworks AI](https://fireworks.ai) API key on first launch. The key is never saved to disk.
